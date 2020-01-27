@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+</head>
+<body>
+   <h3>Registration Form</h3>
+   <form>
+      <fieldset>
+      <legend>Personal Information</legend>
+      <datalist id="name">
+          <option value="Suvrodev"> Suvrodev </option>
+          <option value="Suvrodeb"> Suvrodeb </option>
+          <option value="Shatabdi"> Shatabdi </option>
+          <option value="Shrabanti"> Shrabanti </option>
+          <option value="Monisha"> Monisha </option>
+          <option value="Pritha"> Pritha </option>
+      </datalist>
+       <b>First Name: </b><input type="text" list="name" placeholder="Give your Firstname"required><br/><br/>
+        <b>Last  Name: </b><input type="text"placeholder="Give your Lasttname"required><br/><br/>
+        <b>E-mail:</b> <input type="email" placeholder="Enter your mail"required><br/><br/>
+      <b> Password: </b><input type="password"placeholder="Give your password"required><br/><br/>
+      <b><p>PIN:</b> <input type="pin" placeholder="Give pin"required pattern="[1-9]"><br/><br/></p>
+      
+      <b>Gender:</b><input type="radio" name="textbox1" value="male">Male
+      <input type="radio" name="textbox2" value="Female">Female
+      <input type="radio" name="textbox3" value="Other">Other <br/><br/>
+      
+      <b>Religion:</b><input type="checkbox"value="Islam">Islam
+      <input type="Checkbox"value="Hindu">Hindu
+      <input type="Checkbox"value="Buddhist">Buddhist
+      <input type="Checkbox"value="christian">christian
+      </fieldset>
+      <br/>
+      <b>Department:</b>
+      <select name="department">
+          <option> CSE </option>
+         <option> EEE </option>
+         <option> CIVIL </option>
+      </select>
+      <p>Comment</p>
+     <textarea row="15" col="40" placeholder="Write your Comment"></textarea>
+       <br/><br/>
+     <input type="Submit" value="submit" >
+     <input type="Reset" value="Reset" >
+     
+      
+   </form>
+    
+</body>
+</html>
